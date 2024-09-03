@@ -1,6 +1,6 @@
 #' The Cheese Distribution
 #' 
-#' A delicious uniformly at random-ly generated cheese.
+#' A delicious cheese, generated uniformly at random.
 #' 
 #' @export
 rfromage <- function() {
