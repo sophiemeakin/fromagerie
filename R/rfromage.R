@@ -31,7 +31,7 @@ rfromage <- function() {
   cat(
     "Here, try some ", dat$nom, " !",
     "\n", dat$nom, " is a ", tolower(dat_fam$fromage_famille_en),
-    " made from ", dat_milk_trt, " ", dat_milk, "'s milk,",
+    " made from ", dat_milk_trt, " ", dat_milk_ani, "'s milk,",
     "\n    and is produced in the following departments: ", dat$departements, ".",
     sep = ""
   )
