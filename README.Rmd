@@ -1,3 +1,21 @@
+---
+title: "fromageRie"
+author:
+  - "Sophie Meakin"
+date: "`r Sys.Date()`"
+output:
+  md_document:
+    variant: markdown_github
+    toc: false
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE, fig.path = "man/figures/")
+devtools::load_all()
+
+```
+
 # fromageRie: Data About French Cheeses
 
 The fromageRie package contains colour palettes based on the album artwork some of my favourite electronic music records. Enjoy!
@@ -10,10 +28,6 @@ The fromageRie package contains colour palettes based on the album artwork some 
 
 Print a short description about a randomly chosen cheese with `rfromage()`:
 
-``` r
+```{r}
 rfromage()
 ```
-
-    ## Here, try some Valençay !
-    ## Valençay is a soft cheese with a natural rind made from raw goat's milk,
-    ##     and is produced in the following departments: Cher, Indre, Indre-et-Loire, Loir-et-Cher.
