@@ -18,11 +18,7 @@ devtools::load_all()
 
 # fromageRie: Data About French Cheeses
 
-The fromageRie package contains data about French cheeses.
-
-## Installation
-
-🚧 Package under construction - installation information coming soon!
+🚧 Package under construction - more information coming soon!
 
 ## Cheese Distribution
 
